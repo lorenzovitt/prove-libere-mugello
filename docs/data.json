@@ -1,5 +1,44 @@
 {
   "generated_at": "2026-07-03",
-  "sources_failed": [],
-  "events": []
+  "sources_failed": [
+    "Promo Racing"
+  ],
+  "events": [
+    {
+      "date": "2026-07-13",
+      "source": "Rosso Corsa",
+      "track": "Mugello",
+      "title": "Prova libera",
+      "availability": "da verificare sul sito",
+      "price": "309,00 €",
+      "url": "https://www.rossocorsaonline.com/prove/detail/381"
+    },
+    {
+      "date": "2026-08-31",
+      "source": "Rosso Corsa",
+      "track": "Mugello",
+      "title": "Prova libera",
+      "availability": "da verificare sul sito",
+      "price": "299,00 €",
+      "url": "https://www.rossocorsaonline.com/prove/detail/384"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "Rosso Corsa",
+      "track": "Mugello",
+      "title": "Prova libera",
+      "availability": "da verificare sul sito",
+      "price": "309,00 €",
+      "url": "https://www.rossocorsaonline.com/prove/detail/385"
+    },
+    {
+      "date": "2026-09-28",
+      "source": "Rosso Corsa",
+      "track": "Mugello",
+      "title": "Prova libera",
+      "availability": "da verificare sul sito",
+      "price": "309,00 €",
+      "url": "https://www.rossocorsaonline.com/prove/detail/387"
+    }
+  ]
 }
