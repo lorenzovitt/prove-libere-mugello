@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prove libere moto Mugello</title>
+<style>
+  :root {
+    --bg: #0f0f10;
+    --card: #1a1a1c;
+    --text: #f2f2f2;
+    --muted: #9a9a9a;
+    --available: #3ecf6b;
+    --limited: #e8b93c;
+    --sold-out: #666;
+    --accent: #d63b2f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    padding: 24px 16px 48px;
+  }
+  h1 {
+    font-size: 1.4rem;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #2a2a2c;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  tr:last-child td { border-bottom: none; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .badge.disponibile { background: rgba(62,207,107,0.15); color: var(--available); }
+  .badge.limitati, .badge.limited { background: rgba(232,185,60,0.15); color: var(--limited); }
+  .badge.esaurito, .badge.sold { background: rgba(255,255,255,0.08); color: var(--sold-out); }
+  .badge.verificare { background: rgba(255,255,255,0.08); color: var(--muted); }
+  a.book {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.book:hover { text-decoration: underline; }
+  #status {
+    color: var(--muted);
+    font-size: 0.85rem;
+    padding: 20px 0;
+  }
+  #updated {
+    color: var(--muted);
+    font-size: 0.75rem;
+    margin-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>🏍️ Prove libere moto — Mugello</h1>
+  <div class="subtitle">Date raccolte automaticamente da più agenzie in un unico calendario.</div>
+
+  <div id="status">Caricamento date...</div>
+  <table id="table" style="display:none">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Agenzia</th>
+        <th>Formula</th>
+        <th>Prezzo</th>
+        <th>Disponibilità</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div id="updated"></div>
+
+<script>
+const MONTHS_IT = ["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
+
+function formatDate(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return `${d} ${MONTHS_IT[m - 1]} ${y}`;
+}
+
+function availabilityClass(text) {
+  if (!text) return "verificare";
+  const t = text.toLowerCase();
+  if (t.includes("dispon")) return "disponibile";
+  if (t.includes("limitat")) return "limitati";
+  if (t.includes("esaurit") || t.includes("sold")) return "esaurito";
+  return "verificare";
+}
+
+fetch("data.json?_=" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const tbody = document.getElementById("tbody");
+    const events = data.events || [];
+
+    if (events.length === 0) {
+      document.getElementById("status").textContent = "Nessuna data trovata al momento.";
+      return;
+    }
+
+    events.forEach(ev => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${formatDate(ev.date)}</td>
+        <td>${ev.source ?? ""}</td>
+        <td>${ev.title ?? ""}</td>
+        <td>${ev.price ?? "—"}</td>
+        <td><span class="badge ${availabilityClass(ev.availability)}">${ev.availability ?? "n/d"}</span></td>
+        <td>${ev.url ? `<a class="book" href="${ev.url}" target="_blank" rel="noopener">Vai al sito →</a>` : ""}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    document.getElementById("status").style.display = "none";
+    document.getElementById("table").style.display = "table";
+    document.getElementById("updated").textContent =
+      "Ultimo aggiornamento: " + formatDate(data.generated_at) +
+      (data.sources_failed && data.sources_failed.length
+        ? ` — attenzione: ${data.sources_failed.join(", ")} non raggiungibile/i`
+        : "");
+  })
+  .catch(err => {
+    document.getElementById("status").textContent = "Errore nel caricamento dei dati.";
+    console.error(err);
+  });
+</script>
+
+</body>
+</html>
