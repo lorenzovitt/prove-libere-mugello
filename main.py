@@ -1,7 +1,11 @@
 """
 Script principale: lancia tutti gli scraper, normalizza le date,
-filtra solo Mugello, ordina cronologicamente e salva docs/data.json
-(la cartella docs/ è quella pubblicata da GitHub Pages).
+ordina cronologicamente e salva docs/data.json (la cartella docs/ è quella
+pubblicata da GitHub Pages).
+
+Tutte le piste vengono raccolte: il filtro per pista è lato frontend
+(docs/index.html), così l'utente può scegliere quale vedere senza dover
+toccare questo script.
 
 Aggiungere un nuovo sito sorgente in futuro = scrivere uno scraper in
 scrapers/nome_agenzia.py che esporti una funzione che ritorna una lista di
@@ -17,6 +21,7 @@ from datetime import date
 
 from scrapers.promoracing import scrape_promoracing
 from scrapers.rossocorsa import scrape_rossocorsa
+from scrapers.price_enrichment import enrich_prices
 
 MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS_IT = [
@@ -30,8 +35,6 @@ ALL_SCRAPERS = {
     "Promo Racing": scrape_promoracing,
     "Rosso Corsa": scrape_rossocorsa,
 }
-
-MUGELLO_KEYWORD = "mugello"
 
 
 def infer_year(month_num, today):
@@ -96,13 +99,17 @@ def run():
         n = normalize_event(ev, today)
         if n is None:
             continue
-        if MUGELLO_KEYWORD not in (n["track"] or "").lower():
-            continue
         if n["date"] < today.isoformat():
             continue  # niente eventi passati
         normalized.append(n)
 
     normalized.sort(key=lambda e: e["date"])
+
+    # Per gli eventi senza prezzo (es. Promo Racing, che lo mostra solo via
+    # JS dopo aver cliccato la data) proviamo a recuperarlo con un browser
+    # headless. Se fallisce per qualche motivo, l'evento resta senza prezzo
+    # ma con il link diretto al sito: non è un errore bloccante.
+    normalized = enrich_prices(normalized)
 
     output = {
         "generated_at": today.isoformat(),
@@ -113,7 +120,7 @@ def run():
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"OK: salvati {len(normalized)} eventi al Mugello in docs/data.json")
+    print(f"OK: salvati {len(normalized)} eventi in docs/data.json")
     if errors:
         print(f"ATTENZIONE: {len(errors)} scraper falliti: {', '.join(errors)}")
 
