@@ -25,12 +25,38 @@ AVAILABILITY_MAP = {
 
 MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-TRACKS = ["Mugello Circuit", "Misano World Circuit", "Cremona Circuit"]
+# Sul sito, il nome del circuito è sempre l'ultima parte del testo del link
+# e finisce con la parola "Circuit" (es. "Mugello Circuit", "Misano World
+# Circuit"). Usiamo questo pattern invece di una lista fissa di piste, così
+# se l'agenzia aggiunge nuovi circuiti li rileviamo automaticamente.
+TRACK_PATTERN = re.compile(r"([A-Z][A-Za-zÀ-ÿ' ]*Circuit)\s*$")
+
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+}
 
 
 def scrape_promoracing():
-    resp = requests.get(CALENDAR_URL, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
-    resp.raise_for_status()
+    try:
+        resp = requests.get(CALENDAR_URL, timeout=20, headers=HEADERS)
+    except requests.exceptions.RequestException as exc:
+        raise RuntimeError(f"connessione fallita verso {CALENDAR_URL}: {exc}") from exc
+
+    if resp.status_code != 200:
+        # Includiamo status code e un pezzo di risposta: aiuta a distinguere
+        # un blocco anti-bot (spesso pagina HTML di "Access denied"/captcha)
+        # da un errore diverso.
+        snippet = resp.text[:300].replace("\n", " ")
+        raise RuntimeError(
+            f"HTTP {resp.status_code} da {CALENDAR_URL} — inizio risposta: {snippet!r}"
+        )
+
     soup = BeautifulSoup(resp.text, "html.parser")
 
     events = []
@@ -48,7 +74,7 @@ def scrape_promoracing():
 
         avail_match = re.search(r"(Available|Limited availability|Sold Out)", text)
         month_match = re.search(r"\b(" + "|".join(MONTHS_EN) + r")\b", text)
-        track_match = re.search(r"(" + "|".join(TRACKS) + r")", text)
+        track_match = TRACK_PATTERN.search(text)
         # Il giorno lo prendiamo dall'ancora dell'URL (#06, #17...) che è più affidabile
         # del primo numero trovato nel testo.
         day_match = re.search(r"#(\d{1,2})$", href)

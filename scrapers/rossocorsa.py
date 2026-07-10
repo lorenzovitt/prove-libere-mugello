@@ -29,9 +29,28 @@ MONTHS_IT = [
 ]
 
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+}
+
+
 def scrape_rossocorsa():
-    resp = requests.get(CALENDAR_URL, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
-    resp.raise_for_status()
+    try:
+        resp = requests.get(CALENDAR_URL, timeout=20, headers=HEADERS)
+    except requests.exceptions.RequestException as exc:
+        raise RuntimeError(f"connessione fallita verso {CALENDAR_URL}: {exc}") from exc
+
+    if resp.status_code != 200:
+        snippet = resp.text[:300].replace("\n", " ")
+        raise RuntimeError(
+            f"HTTP {resp.status_code} da {CALENDAR_URL} — inizio risposta: {snippet!r}"
+        )
+
     soup = BeautifulSoup(resp.text, "html.parser")
 
     events = []
