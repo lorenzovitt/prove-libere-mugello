@@ -15,6 +15,7 @@ Poi aggiungerlo qui sotto in ALL_SCRAPERS.
 """
 
 import json
+import re
 import sys
 import traceback
 from datetime import date
@@ -28,6 +29,50 @@ MONTHS_IT = [
     "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
     "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre",
 ]
+MONTHS_IT_ABBR = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
+
+# Ogni sito scrive il nome della pista in modo diverso ("Mugello Circuit",
+# "MUGELLO", "Autodromo del Mugello"...). Qui mappiamo tutte le varianti note
+# a un unico nome canonico, così nel filtro compare una sola volta per pista
+# invece che una voce diversa per ogni agenzia/formattazione.
+TRACK_ALIASES = {
+    "mugello": "Mugello",
+    "misano": "Misano",
+    "cremona": "Cremona",
+    "vallelunga": "Vallelunga",
+    "imola": "Imola",
+    "franciacorta": "Franciacorta",
+    "adria": "Adria",
+    "magione": "Magione",
+    "varano": "Varano de' Melegari",
+    "modena": "Modena",
+    "pergusa": "Pergusa",
+    "binetto": "Binetto",
+    "castelletto": "Castelletto di Branduzzo",
+}
+
+_DATE_WORDS = {m.lower() for m in MONTHS_EN} | set(MONTHS_IT) | set(MONTHS_IT_ABBR)
+
+
+def clean_track_name(raw):
+    """Normalizza il nome pista: unifica le varianti note tramite alias,
+    e in ogni caso ripulisce numeri e nomi di mese eventualmente rimasti
+    attaccati per errore durante l'estrazione (es. 'Mugello 09 Oct')."""
+    if not raw:
+        return None
+
+    lower = raw.lower()
+    for keyword, canonical in TRACK_ALIASES.items():
+        if keyword in lower:
+            return canonical
+
+    # Pista non in elenco: pulizia generica come fallback, per non far
+    # comparire nel filtro voci tipo "09 Oct" o doppioni con spazi diversi.
+    text = re.sub(r"\d+", "", raw)
+    words = [w for w in text.split() if w.strip(",.;:").lower() not in _DATE_WORDS]
+    text = " ".join(words)
+    text = re.sub(r"\s{2,}", " ", text).strip(" -|,")
+    return text or None
 
 # Ogni scraper è isolato: se uno fallisce (es. sito cambiato), gli altri
 # continuano a funzionare e va solo a log l'errore, invece di bloccare tutto.
@@ -73,7 +118,7 @@ def normalize_event(ev, today):
     return {
         "date": event_date.isoformat(),
         "source": ev.get("source"),
-        "track": ev.get("track"),
+        "track": clean_track_name(ev.get("track")),
         "title": ev.get("title"),
         "availability": ev.get("availability"),
         "price": ev.get("price"),
