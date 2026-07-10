@@ -84,14 +84,22 @@
 </head>
 <body>
 
-  <h1>🏍️ Prove libere moto — Mugello</h1>
+  <h1>🏍️ Prove libere moto</h1>
   <div class="subtitle">Date raccolte automaticamente da più agenzie in un unico calendario.</div>
+
+  <div id="filters" style="display:none; margin-bottom: 16px;">
+    <label for="trackFilter" style="font-size:0.8rem; color:var(--muted); margin-right:8px;">Pista:</label>
+    <select id="trackFilter" style="background:var(--card); color:var(--text); border:1px solid #2a2a2c; border-radius:6px; padding:6px 10px; font-size:0.9rem;">
+      <option value="">Tutte</option>
+    </select>
+  </div>
 
   <div id="status">Caricamento date...</div>
   <table id="table" style="display:none">
     <thead>
       <tr>
         <th>Data</th>
+        <th>Pista</th>
         <th>Agenzia</th>
         <th>Formula</th>
         <th>Prezzo</th>
@@ -131,20 +139,42 @@ fetch("data.json?_=" + Date.now())
       return;
     }
 
-    events.forEach(ev => {
+    function renderRow(ev) {
       const tr = document.createElement("tr");
+      tr.dataset.track = ev.track ?? "";
       tr.innerHTML = `
         <td>${formatDate(ev.date)}</td>
+        <td>${ev.track ?? "—"}</td>
         <td>${ev.source ?? ""}</td>
         <td>${ev.title ?? ""}</td>
         <td>${ev.price ?? "—"}</td>
         <td><span class="badge ${availabilityClass(ev.availability)}">${ev.availability ?? "n/d"}</span></td>
         <td>${ev.url ? `<a class="book" href="${ev.url}" target="_blank" rel="noopener">Vai al sito →</a>` : ""}</td>
       `;
-      tbody.appendChild(tr);
+      return tr;
+    }
+
+    events.forEach(ev => tbody.appendChild(renderRow(ev)));
+
+    // Popola il filtro pista con le piste effettivamente presenti nei dati
+    const tracks = [...new Set(events.map(e => e.track).filter(Boolean))].sort();
+    const trackFilter = document.getElementById("trackFilter");
+    tracks.forEach(track => {
+      const opt = document.createElement("option");
+      opt.value = track;
+      opt.textContent = track;
+      trackFilter.appendChild(opt);
+    });
+
+    trackFilter.addEventListener("change", () => {
+      const selected = trackFilter.value;
+      [...tbody.rows].forEach(row => {
+        row.style.display = (!selected || row.dataset.track === selected) ? "" : "none";
+      });
     });
 
     document.getElementById("status").style.display = "none";
+    document.getElementById("filters").style.display = "block";
     document.getElementById("table").style.display = "table";
     document.getElementById("updated").textContent =
       "Ultimo aggiornamento: " + formatDate(data.generated_at) +
