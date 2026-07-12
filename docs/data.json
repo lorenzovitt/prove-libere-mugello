@@ -1,16 +1,7 @@
 {
-  "generated_at": "2026-07-11",
+  "generated_at": "2026-07-12",
   "sources_failed": [],
   "events": [
-    {
-      "date": "2026-07-13",
-      "source": "Promo Racing",
-      "track": "Misano",
-      "title": "MOTORCYCLE TRACKDAY Misano World Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.639/motorcycle-trackday#13"
-    },
     {
       "date": "2026-07-13",
       "source": "Rosso Corsa",
@@ -19,33 +10,6 @@
       "availability": "da verificare sul sito",
       "price": "309,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/381"
-    },
-    {
-      "date": "2026-07-17",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.640/motorcycle-trackdays#17"
-    },
-    {
-      "date": "2026-07-18",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.640/motorcycle-trackdays#18"
-    },
-    {
-      "date": "2026-07-19",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.640/motorcycle-trackdays#19"
     },
     {
       "date": "2026-07-20",
@@ -57,69 +21,6 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/383"
     },
     {
-      "date": "2026-07-27",
-      "source": "Promo Racing",
-      "track": "Misano",
-      "title": "MOTORCYCLE TRACKDAY Misano World Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.641/motorcycle-trackday#27"
-    },
-    {
-      "date": "2026-07-28",
-      "source": "Promo Racing",
-      "track": "Misano",
-      "title": "MOTORCYCLE TRACKDAY Misano World Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.641/motorcycle-trackday#28"
-    },
-    {
-      "date": "2026-08-21",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#21"
-    },
-    {
-      "date": "2026-08-22",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#22"
-    },
-    {
-      "date": "2026-08-23",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#23"
-    },
-    {
-      "date": "2026-08-29",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "disponibile",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.645/motorcycle-trackdays#29"
-    },
-    {
-      "date": "2026-08-30",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "disponibile",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.645/motorcycle-trackdays#30"
-    },
-    {
       "date": "2026-08-31",
       "source": "Rosso Corsa",
       "track": "Mugello",
@@ -127,15 +28,6 @@
       "availability": "da verificare sul sito",
       "price": "299,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/384"
-    },
-    {
-      "date": "2026-09-07",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackday Mugello Circuit",
-      "availability": "disponibile",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.646/motorcycle-trackday#07"
     },
     {
       "date": "2026-09-14",
@@ -147,33 +39,6 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/385"
     },
     {
-      "date": "2026-09-18",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#18"
-    },
-    {
-      "date": "2026-09-19",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#19"
-    },
-    {
-      "date": "2026-09-20",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#20"
-    },
-    {
       "date": "2026-09-24",
       "source": "Rosso Corsa",
       "track": "Misano",
@@ -181,24 +46,6 @@
       "availability": "da verificare sul sito",
       "price": "219,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/386"
-    },
-    {
-      "date": "2026-09-27",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackday Mugello Circuit",
-      "availability": "disponibile",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.648/motorcycle-trackday#27"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Promo Racing",
-      "track": "Cremona",
-      "title": "Pirelli WORLD SBK Day Cremona Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.687/pirelli-world-sbk-day#28"
     },
     {
       "date": "2026-09-28",
@@ -210,33 +57,6 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/387"
     },
     {
-      "date": "2026-10-09",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#09"
-    },
-    {
-      "date": "2026-10-10",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#10"
-    },
-    {
-      "date": "2026-10-11",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#11"
-    },
-    {
       "date": "2026-10-19",
       "source": "Rosso Corsa",
       "track": "Misano",
@@ -244,15 +64,6 @@
       "availability": "da verificare sul sito",
       "price": "209,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/388"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Promo Racing",
-      "track": "Misano",
-      "title": "MOTORCYCLE TRACKDAY - special price",
-      "availability": "disponibile",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.651/motorcycle-trackday-special-price#26"
     },
     {
       "date": "2026-12-03",
