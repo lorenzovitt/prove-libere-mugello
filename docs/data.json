@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-07-13",
   "sources_failed": [
-    "Racing Factory",
-    "R&B Motoracing"
+    "Eleven Riding Life",
+    "Racing Factory"
   ],
   "events": [
     {
@@ -11,7 +11,7 @@
       "track": "Misano",
       "title": "MOTORCYCLE TRACKDAY Misano World Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.639/motorcycle-trackday#13"
     },
     {
@@ -33,21 +33,12 @@
       "url": "https://www.primainpista.it/shop/p/tazio13luglio"
     },
     {
-      "date": "2026-07-13",
-      "source": "Eleven Riding Life",
-      "track": "Mugello",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "319 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-del-mugello-13-luglio-2026/"
-    },
-    {
       "date": "2026-07-17",
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.640/motorcycle-trackdays#17"
     },
     {
@@ -56,7 +47,7 @@
       "track": "Mugello",
       "title": "17_18_19 LUGLIO  - MUGELLO - TURNI",
       "availability": null,
-      "price": null,
+      "price": "305€",
       "url": "https://www.motoracepeople.com/1/2/17/18/19-luglio---mugello---turni-cronometrati---pareggiamenti"
     },
     {
@@ -65,7 +56,7 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.640/motorcycle-trackdays#18"
     },
     {
@@ -74,7 +65,7 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.640/motorcycle-trackdays#19"
     },
     {
@@ -92,17 +83,8 @@
       "track": "Misano",
       "title": "MOTORCYCLE TRACKDAY Misano World Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.641/motorcycle-trackday#27"
-    },
-    {
-      "date": "2026-07-27",
-      "source": "Eleven Riding Life",
-      "track": "Magione",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "110 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-27-luglio-2026/"
     },
     {
       "date": "2026-07-28",
@@ -110,7 +92,7 @@
       "track": "Misano",
       "title": "MOTORCYCLE TRACKDAY Misano World Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.641/motorcycle-trackday#28"
     },
     {
@@ -119,7 +101,7 @@
       "track": "Cremona",
       "title": "31 LUGLIO CREMONA - OPEN PIT LANE",
       "availability": null,
-      "price": null,
+      "price": "10€",
       "url": "https://www.motoracepeople.com/31-luglio---cremona-circuit---open-pit-lane"
     },
     {
@@ -128,7 +110,7 @@
       "track": "Cremona",
       "title": "1 AGOSTO CREMONA - TURNI CRONO & CONTEST",
       "availability": null,
-      "price": null,
+      "price": "200€",
       "url": "https://www.motoracepeople.com/1-agosto---cremona-circuit---turni-cronometrati---contest"
     },
     {
@@ -137,7 +119,7 @@
       "track": "Cremona",
       "title": "2 AGOSTO CREMONA CIRCUIT - TURNI CRONO",
       "availability": null,
-      "price": null,
+      "price": "200€",
       "url": "https://www.motoracepeople.com/2-agosto---cremona-circuit---turni-cronometrati"
     },
     {
@@ -155,7 +137,7 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "esaurito",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#21"
     },
     {
@@ -164,17 +146,8 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "esaurito",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#22"
-    },
-    {
-      "date": "2026-08-22",
-      "source": "Eleven Riding Life",
-      "track": "Cremona",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "189 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-22-agosto-2026/"
     },
     {
       "date": "2026-08-23",
@@ -182,17 +155,8 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#23"
-    },
-    {
-      "date": "2026-08-23",
-      "source": "Eleven Riding Life",
-      "track": "Cremona",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "189 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-23-agosto-2026/"
     },
     {
       "date": "2026-08-24",
@@ -227,7 +191,7 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "disponibile",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.645/motorcycle-trackdays#29"
     },
     {
@@ -236,17 +200,8 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "disponibile",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.645/motorcycle-trackdays#30"
-    },
-    {
-      "date": "2026-08-30",
-      "source": "Eleven Riding Life",
-      "track": "Magione",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "129 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-30-agosto-2026/"
     },
     {
       "date": "2026-08-31",
@@ -258,21 +213,12 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/384"
     },
     {
-      "date": "2026-08-31",
-      "source": "Eleven Riding Life",
-      "track": "Mugello",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "299 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-del-mugello-31-agosto-2026/"
-    },
-    {
       "date": "2026-09-07",
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackday Mugello Circuit",
       "availability": "disponibile",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.646/motorcycle-trackday#07"
     },
     {
@@ -286,20 +232,11 @@
     },
     {
       "date": "2026-09-14",
-      "source": "Eleven Riding Life",
-      "track": "Cremona",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "189 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-14-settembre-2026/"
-    },
-    {
-      "date": "2026-09-14",
       "source": "MotoRacePeople",
       "track": "Tazio Nuvolari",
       "title": "14 SETTEMBRE NUVOLARI 5260 - OPL QUALITY",
       "availability": null,
-      "price": null,
+      "price": "180€",
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
     },
     {
@@ -312,21 +249,12 @@
       "url": "https://www.raceaction.it"
     },
     {
-      "date": "2026-09-16",
-      "source": "Eleven Riding Life",
-      "track": "Cremona",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "185 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-16-settembre-2026/"
-    },
-    {
       "date": "2026-09-18",
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "esaurito",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#18"
     },
     {
@@ -335,7 +263,7 @@
       "track": "Tazio Nuvolari",
       "title": "18 SETTEMBRE T. NUVOLARI 2805 - TURNI CRONO",
       "availability": null,
-      "price": null,
+      "price": "135€",
       "url": "https://www.motoracepeople.com/18-settembre---tazio-nuovolari-2805---turni-cronometrati"
     },
     {
@@ -344,7 +272,7 @@
       "track": "Mugello",
       "title": "18_19_20 SETTEMBRE  - MUGELLO",
       "availability": null,
-      "price": null,
+      "price": "209€",
       "url": "https://www.motoracepeople.com/1/2/17/18/18/19/20-settembre---mugello---turni-cronometrati---pareggiamenti"
     },
     {
@@ -353,7 +281,7 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "esaurito",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#19"
     },
     {
@@ -362,7 +290,7 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "esaurito",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#20"
     },
     {
@@ -375,21 +303,12 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/386"
     },
     {
-      "date": "2026-09-24",
-      "source": "Eleven Riding Life",
-      "track": "Misano",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "219 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-24-settembre-2026/"
-    },
-    {
       "date": "2026-09-27",
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackday Mugello Circuit",
       "availability": "disponibile",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.648/motorcycle-trackday#27"
     },
     {
@@ -398,7 +317,7 @@
       "track": "Mugello",
       "title": "27 SETTEMBRE  - MUGELLO - TURNI & P.TI",
       "availability": null,
-      "price": null,
+      "price": "345€",
       "url": "https://www.motoracepeople.com/1/2/17/18/18/19/27-settembre---mugello---turni-cronometrati---pareggiamenti"
     },
     {
@@ -418,24 +337,6 @@
       "availability": "da verificare sul sito",
       "price": "309,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/387"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Eleven Riding Life",
-      "track": "Misano",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "249 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-28-settembre-2026/"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Eleven Riding Life",
-      "track": "Magione",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "110 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-28-settembre-2026/"
     },
     {
       "date": "2026-10-05",
@@ -465,21 +366,12 @@
       "url": "https://www.raceaction.it"
     },
     {
-      "date": "2026-10-08",
-      "source": "Eleven Riding Life",
-      "track": "Misano",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "219 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-8-ottobre-2026/"
-    },
-    {
       "date": "2026-10-09",
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "esaurito",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#09"
     },
     {
@@ -488,7 +380,7 @@
       "track": "Mugello",
       "title": "9_10_11 OTTOBRE  - MUGELLO - TURNI & P.TI",
       "availability": null,
-      "price": null,
+      "price": "209€",
       "url": "https://www.motoracepeople.com/1/2/17/18/18/19/9/10/11-ottobre---mugello---turni-cronometrati---pareggiamenti"
     },
     {
@@ -497,7 +389,7 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "esaurito",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#10"
     },
     {
@@ -506,26 +398,8 @@
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
       "availability": "posti limitati",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#11"
-    },
-    {
-      "date": "2026-10-17",
-      "source": "Eleven Riding Life",
-      "track": "Magione",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "129 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-17-ottobre-2026/"
-    },
-    {
-      "date": "2026-10-18",
-      "source": "Eleven Riding Life",
-      "track": "Magione",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "129 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-18-ottobre-2026/"
     },
     {
       "date": "2026-10-19",
@@ -537,21 +411,12 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/388"
     },
     {
-      "date": "2026-10-19",
-      "source": "Eleven Riding Life",
-      "track": "Misano",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "209 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-19-ottobre-2026/"
-    },
-    {
       "date": "2026-10-26",
       "source": "Promo Racing",
       "track": "Misano",
       "title": "MOTORCYCLE TRACKDAY - special price",
       "availability": "disponibile",
-      "price": null,
+      "price": "5€",
       "url": "https://www.promoracing.it/en/calendar/bike.651/motorcycle-trackday-special-price#26"
     },
     {
