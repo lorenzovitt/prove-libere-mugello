@@ -83,8 +83,12 @@ def scrape_racingfactory():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
-        page.goto(START_URL, timeout=30000, wait_until="networkidle")
-        page.wait_for_timeout(1500)  # margine extra per eventuali chiamate JS lente
+        # "networkidle" andava in timeout: probabilmente il sito ha
+        # connessioni sempre attive (chat widget, analytics) che impediscono
+        # alla rete di "calmarsi" mai del tutto. "domcontentloaded" + attesa
+        # fissa è più affidabile per questo tipo di siti.
+        page.goto(START_URL, timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(5000)
         full_text = page.inner_text("body")
         browser.close()
 

@@ -19,7 +19,19 @@ sistemare il selettore di conseguenza.
 
 import re
 
-PRICE_PATTERN = re.compile(r"\d{1,4}(?:[.,]\d{2})?\s*€")
+# Un prezzo valido per una giornata in pista è sempre un importo consistente
+# (tipicamente 80-400 €). Cerchiamo SOLO numeri con almeno 2 cifre prima di
+# "€", ed escludiamo comunque tutto sotto i 50 € più sotto nel codice: prima
+# provavamo a matchare qualsiasi "N €" nell'HTML grezzo, ma questo prendeva
+# spesso numeri piccoli senza relazione col prezzo reale (es. "5€" da un
+# badge, un costo accessorio, o un elemento nascosto nella pagina).
+PRICE_PATTERN = re.compile(r"\d{2,4}(?:[.,]\d{2})?\s*€")
+MIN_PLAUSIBLE_PRICE = 50
+
+
+def _plausible_price(match_text):
+    number = re.match(r"\d+", match_text)
+    return number is not None and int(number.group(0)) >= MIN_PLAUSIBLE_PRICE
 
 
 def enrich_prices(events, max_events=30):
@@ -62,12 +74,18 @@ def enrich_prices(events, max_events=30):
                         option.first.click()
                         page.wait_for_timeout(800)
 
-                    match = PRICE_PATTERN.search(page.content())
-                    if match:
-                        ev["price"] = match.group(0).replace(" ", "")
+                    # Cerchiamo nel testo VISIBILE della pagina (non nell'HTML
+                    # grezzo, che contiene script/meta/elementi nascosti che
+                    # possono generare falsi positivi), e scartiamo i match
+                    # troppo piccoli per essere un prezzo plausibile.
+                    visible_text = page.inner_text("body")
+                    candidates = [m for m in PRICE_PATTERN.findall(visible_text) if _plausible_price(m)]
+
+                    if candidates:
+                        ev["price"] = candidates[0].replace(" ", "")
                         print(f"[INFO] Prezzo trovato per {ev['url']}: {ev['price']}")
                     else:
-                        print(f"[INFO] Nessun prezzo trovato in pagina per {ev['url']}")
+                        print(f"[INFO] Nessun prezzo plausibile trovato per {ev['url']}")
 
                 except Exception as exc:  # noqa: BLE001
                     print(f"[INFO] Impossibile recuperare il prezzo per {ev.get('url')}: {exc}")

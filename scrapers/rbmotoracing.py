@@ -20,8 +20,8 @@ def scrape_rbmotoracing():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
-        page.goto(START_URL, timeout=30000, wait_until="networkidle")
-        page.wait_for_timeout(1500)
+        page.goto(START_URL, timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(5000)
         full_text = page.inner_text("body")
         browser.close()
 
