@@ -23,7 +23,19 @@ PRICE_PATTERN = re.compile(r"\d{1,4}(?:[.,]\d{2})?\s*€")
 
 
 def enrich_prices(events, max_events=30):
-    to_enrich = [e for e in events if not e.get("price") and e.get("url")][:max_events]
+    # Se più eventi condividono lo stesso URL (es. Race Action, che non ha
+    # pagine per singolo evento), aprire quella pagina non ci direbbe a
+    # quale dei tanti eventi appartiene il prezzo trovato: meglio saltare
+    # questi casi piuttosto che rischiare di assegnare un prezzo sbagliato.
+    url_counts = {}
+    for e in events:
+        if e.get("url"):
+            url_counts[e["url"]] = url_counts.get(e["url"], 0) + 1
+
+    to_enrich = [
+        e for e in events
+        if not e.get("price") and e.get("url") and url_counts.get(e["url"]) == 1
+    ][:max_events]
     if not to_enrich:
         return events
 
