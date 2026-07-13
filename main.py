@@ -22,42 +22,27 @@ from datetime import date
 
 from scrapers.promoracing import scrape_promoracing
 from scrapers.rossocorsa import scrape_rossocorsa
+from scrapers.primainpista import scrape_primainpista
+from scrapers.elevenridinglife import scrape_elevenridinglife
+from scrapers.gullyracing import scrape_gullyracing
+from scrapers.motoracepeople import scrape_motoracepeople
+from scrapers.raceaction import scrape_raceaction
+from scrapers.racingfactory import scrape_racingfactory
+from scrapers.rbmotoracing import scrape_rbmotoracing
 from scrapers.price_enrichment import enrich_prices
+from scrapers.common import MONTHS_IT, TRACK_ALIASES
 
 MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-MONTHS_IT = [
-    "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
-    "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre",
-]
 MONTHS_IT_ABBR = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
-
-# Ogni sito scrive il nome della pista in modo diverso ("Mugello Circuit",
-# "MUGELLO", "Autodromo del Mugello"...). Qui mappiamo tutte le varianti note
-# a un unico nome canonico, così nel filtro compare una sola volta per pista
-# invece che una voce diversa per ogni agenzia/formattazione.
-TRACK_ALIASES = {
-    "mugello": "Mugello",
-    "misano": "Misano",
-    "cremona": "Cremona",
-    "vallelunga": "Vallelunga",
-    "imola": "Imola",
-    "franciacorta": "Franciacorta",
-    "adria": "Adria",
-    "magione": "Magione",
-    "varano": "Varano de' Melegari",
-    "modena": "Modena",
-    "pergusa": "Pergusa",
-    "binetto": "Binetto",
-    "castelletto": "Castelletto di Branduzzo",
-}
 
 _DATE_WORDS = {m.lower() for m in MONTHS_EN} | set(MONTHS_IT) | set(MONTHS_IT_ABBR)
 
 
 def clean_track_name(raw):
-    """Normalizza il nome pista: unifica le varianti note tramite alias,
-    e in ogni caso ripulisce numeri e nomi di mese eventualmente rimasti
-    attaccati per errore durante l'estrazione (es. 'Mugello 09 Oct')."""
+    """Normalizza il nome pista: unifica le varianti note tramite l'elenco
+    condiviso in scrapers/common.py, e in ogni caso ripulisce numeri e nomi
+    di mese eventualmente rimasti attaccati per errore durante l'estrazione
+    (es. 'Mugello 09 Oct')."""
     if not raw:
         return None
 
@@ -76,9 +61,18 @@ def clean_track_name(raw):
 
 # Ogni scraper è isolato: se uno fallisce (es. sito cambiato), gli altri
 # continuano a funzionare e va solo a log l'errore, invece di bloccare tutto.
+# Racing Factory e R&B Motoracing sono sperimentali (siti solo-JS, scraping
+# via browser headless): possono fallire più facilmente degli altri.
 ALL_SCRAPERS = {
     "Promo Racing": scrape_promoracing,
     "Rosso Corsa": scrape_rossocorsa,
+    "Prima in Pista": scrape_primainpista,
+    "Eleven Riding Life": scrape_elevenridinglife,
+    "Gully Racing": scrape_gullyracing,
+    "MotoRacePeople": scrape_motoracepeople,
+    "Race Action": scrape_raceaction,
+    "Racing Factory": scrape_racingfactory,
+    "R&B Motoracing": scrape_rbmotoracing,
 }
 
 

@@ -59,15 +59,39 @@ invece di avere un design proprio, si può in un secondo momento convertire
 `docs/index.html` in un componente Framer (codice React) che fa `fetch` dello
 stesso `data.json` — dimmelo se vuoi che prepari anche questa versione.
 
-## Aggiungere altre agenzie (fino a completare le 8)
+## Agenzie incluse e affidabilità stimata
 
-Per ognuna delle altre agenzie:
+| Agenzia | Come viene letta | Prezzo | Disponibilità | Affidabilità |
+|---|---|---|---|---|
+| Promo Racing | HTML statico | via browser headless (best effort) | ✅ | 🟢 Alta |
+| Rosso Corsa | HTML statico | ✅ | ⚠️ non esposta dal sito | 🟢 Alta |
+| Prima in Pista | HTML statico (Squarespace) | ✅ | ✅ | 🟢 Alta |
+| Eleven Riding Life | HTML statico (WordPress) | ✅ | ✅ (icona semaforo) | 🟢 Alta |
+| Gully Racing | HTML statico | ⚠️ non mostrato in lista | ⚠️ non mostrata | 🟡 Media |
+| MotoRacePeople | HTML statico | ⚠️ non mostrato in lista | ⚠️ non mostrata | 🟡 Media |
+| Race Action | HTML statico ma testo libero, non strutturato | ✅ (da titolo) | ✅ (da parole chiave) | 🟠 Bassa — nessun link diretto all'evento, solo email/WhatsApp |
+| Racing Factory | **Sito solo-JavaScript**, letto via browser headless con pattern generici | ⚠️ raramente | ⚠️ non affidabile | 🔴 Sperimentale |
+| R&B Motoracing | **Sito solo-JavaScript**, letto via browser headless con pattern generici | ⚠️ raramente | ⚠️ non affidabile | 🔴 Sperimentale |
 
-1. Copia `scrapers/rossocorsa.py` (o `promoracing.py`, a seconda di quale
-   struttura di pagina somiglia di più al nuovo sito) come base.
+Le ultime due sono contrassegnate come sperimentali perché il sito non espone nessun contenuto nell'HTML statico (serve eseguire JavaScript per vederlo), e senza poter ispezionare dal vivo la struttura esatta della pagina resa, l'estrazione si basa su pattern di testo generici invece che su selettori precisi. **Vanno testate dopo il primo deploy** guardando il log del workflow.
+
+
+
+## Aggiungere altre agenzie in futuro
+
+Per aggiungerne altre:
+
+1. Copia lo scraper più simile come base (`scrapers/rossocorsa.py` se il
+   sito è HTML statico e ben strutturato, `scrapers/raceaction.py` se è
+   testo libero, `scrapers/racingfactory.py` se il sito è tutto in
+   JavaScript). Il modulo `scrapers/common.py` contiene funzioni riutilizzabili
+   (`find_date`, `find_track`, `fetch_html`) che coprono già la maggior
+   parte dei casi.
 2. Adatta i pattern di estrazione al testo/HTML di quel sito.
 3. Aggiungi la nuova funzione in `main.py`, dentro `ALL_SCRAPERS`.
-4. Fai commit e push: al giro successivo (max 8 ore, o subito se lanci il
+4. Se il sito usa un nome pista non ancora in elenco, aggiungilo a
+   `TRACK_ALIASES` in `scrapers/common.py`.
+5. Fai commit e push: al giro successivo (max 8 ore, o subito se lanci il
    workflow a mano) la nuova agenzia comparirà nella tabella.
 
 ## Limiti noti / cose da verificare dopo il primo deploy
