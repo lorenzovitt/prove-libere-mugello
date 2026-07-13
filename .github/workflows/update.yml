@@ -2,8 +2,9 @@ name: Aggiorna date prove libere Mugello
 
 on:
   schedule:
+    # Ogni 8 ore. Sintassi cron: minuto ora giorno mese giorno-settimana (UTC)
     - cron: "0 */8 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}  # permette anche l'avvio manuale dal tab Actions
 
 permissions:
   contents: write
@@ -22,6 +23,9 @@ jobs:
 
       - name: Installa dipendenze
         run: pip install -r requirements.txt
+
+      - name: Installa browser per Playwright
+        run: playwright install --with-deps chromium chromium-headless-shell
 
       - name: Esegui gli scraper
         run: python main.py
