@@ -174,15 +174,6 @@
       "url": "https://www.primainpista.it/shop/p/cremona24agosto-piloti"
     },
     {
-      "date": "2026-08-24",
-      "source": "Prima in Pista",
-      "track": "Cremona",
-      "title": "Prove libere",
-      "availability": null,
-      "price": "269,00 €",
-      "url": "https://www.primainpista.it/shop/p/cremona24agosto"
-    },
-    {
       "date": "2026-08-29",
       "source": "Promo Racing",
       "track": "Mugello",
@@ -409,15 +400,6 @@
     },
     {
       "date": "2026-10-05",
-      "source": "Prima in Pista",
-      "track": "Tazio Nuvolari",
-      "title": "Prove libere",
-      "availability": null,
-      "price": "189,00 €",
-      "url": "https://www.primainpista.it/shop/p/tazio05ottobre"
-    },
-    {
-      "date": "2026-10-05",
       "source": "Race Action",
       "track": "Misano",
       "title": "05 Ottobre   LUNEDI MISANO WORLD  CIRCUIT  199 €",
@@ -532,15 +514,6 @@
       "availability": "da verificare sul sito",
       "price": null,
       "url": "https://www.rossocorsaonline.com/prove/detail/362"
-    },
-    {
-      "date": "2027-06-15",
-      "source": "Prima in Pista",
-      "track": "Cremona",
-      "title": "Prove libere",
-      "availability": null,
-      "price": "289,00 €",
-      "url": "https://www.primainpista.it/shop/p/cremona15giugno"
     }
   ]
 }
