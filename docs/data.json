@@ -1,25 +1,7 @@
 {
-  "generated_at": "2026-07-19",
+  "generated_at": "2026-07-20",
   "sources_failed": [],
   "events": [
-    {
-      "date": "2026-07-19",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.640/motorcycle-trackdays#19"
-    },
-    {
-      "date": "2026-07-20",
-      "source": "Rosso Corsa",
-      "track": "Misano",
-      "title": "Prova libera",
-      "availability": "da verificare sul sito",
-      "price": "249,00 €",
-      "url": "https://www.rossocorsaonline.com/prove/detail/383"
-    },
     {
       "date": "2026-07-27",
       "source": "Promo Racing",
