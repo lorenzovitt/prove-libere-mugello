@@ -1,8 +1,6 @@
 {
   "generated_at": "2026-07-21",
-  "sources_failed": [
-    "Eleven Riding Life"
-  ],
+  "sources_failed": [],
   "events": [
     {
       "date": "2026-07-27",
@@ -12,6 +10,15 @@
       "availability": "posti limitati",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.641/motorcycle-trackday#27"
+    },
+    {
+      "date": "2026-07-27",
+      "source": "Eleven Riding Life",
+      "track": "Magione",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "110 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-27-luglio-2026/"
     },
     {
       "date": "2026-07-28",
@@ -77,6 +84,15 @@
       "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#22"
     },
     {
+      "date": "2026-08-22",
+      "source": "Eleven Riding Life",
+      "track": "Cremona",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "189 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-22-agosto-2026/"
+    },
+    {
       "date": "2026-08-23",
       "source": "Promo Racing",
       "track": "Mugello",
@@ -84,6 +100,15 @@
       "availability": "posti limitati",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#23"
+    },
+    {
+      "date": "2026-08-23",
+      "source": "Eleven Riding Life",
+      "track": "Cremona",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "189 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-23-agosto-2026/"
     },
     {
       "date": "2026-08-24",
@@ -122,6 +147,15 @@
       "url": "https://www.promoracing.it/en/calendar/bike.645/motorcycle-trackdays#30"
     },
     {
+      "date": "2026-08-30",
+      "source": "Eleven Riding Life",
+      "track": "Magione",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "129 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-30-agosto-2026/"
+    },
+    {
       "date": "2026-08-31",
       "source": "Rosso Corsa",
       "track": "Mugello",
@@ -129,6 +163,15 @@
       "availability": "da verificare sul sito",
       "price": "299,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/384"
+    },
+    {
+      "date": "2026-08-31",
+      "source": "Eleven Riding Life",
+      "track": "Mugello",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "299 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-del-mugello-31-agosto-2026/"
     },
     {
       "date": "2026-09-07",
@@ -150,6 +193,15 @@
     },
     {
       "date": "2026-09-14",
+      "source": "Eleven Riding Life",
+      "track": "Cremona",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "189 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-14-settembre-2026/"
+    },
+    {
+      "date": "2026-09-14",
       "source": "MotoRacePeople",
       "track": "Tazio Nuvolari",
       "title": "14 SETTEMBRE NUVOLARI 5260 - OPL QUALITY",
@@ -165,6 +217,15 @@
       "availability": null,
       "price": "209 €",
       "url": "https://www.raceaction.it"
+    },
+    {
+      "date": "2026-09-16",
+      "source": "Eleven Riding Life",
+      "track": "Cremona",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "185 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-16-settembre-2026/"
     },
     {
       "date": "2026-09-18",
@@ -221,6 +282,15 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/386"
     },
     {
+      "date": "2026-09-24",
+      "source": "Eleven Riding Life",
+      "track": "Misano",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "219 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-24-settembre-2026/"
+    },
+    {
       "date": "2026-09-27",
       "source": "Promo Racing",
       "track": "Mugello",
@@ -257,6 +327,24 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/387"
     },
     {
+      "date": "2026-09-28",
+      "source": "Eleven Riding Life",
+      "track": "Misano",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "249 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-28-settembre-2026/"
+    },
+    {
+      "date": "2026-09-28",
+      "source": "Eleven Riding Life",
+      "track": "Magione",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "110 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-28-settembre-2026/"
+    },
+    {
       "date": "2026-10-05",
       "source": "Prima in Pista",
       "track": "Tazio Nuvolari",
@@ -273,6 +361,15 @@
       "availability": null,
       "price": "199 €",
       "url": "https://www.raceaction.it"
+    },
+    {
+      "date": "2026-10-08",
+      "source": "Eleven Riding Life",
+      "track": "Misano",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "219 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-8-ottobre-2026/"
     },
     {
       "date": "2026-10-09",
@@ -311,6 +408,24 @@
       "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#11"
     },
     {
+      "date": "2026-10-17",
+      "source": "Eleven Riding Life",
+      "track": "Magione",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "129 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-17-ottobre-2026/"
+    },
+    {
+      "date": "2026-10-18",
+      "source": "Eleven Riding Life",
+      "track": "Magione",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "129 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-18-ottobre-2026/"
+    },
+    {
       "date": "2026-10-19",
       "source": "Rosso Corsa",
       "track": "Misano",
@@ -318,6 +433,15 @@
       "availability": "da verificare sul sito",
       "price": "209,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/388"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Eleven Riding Life",
+      "track": "Misano",
+      "title": "Track day",
+      "availability": "disponibile",
+      "price": "209 €",
+      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-19-ottobre-2026/"
     },
     {
       "date": "2026-10-26",
