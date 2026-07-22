@@ -48,6 +48,15 @@
       "url": "https://www.motoracepeople.com/1-agosto---cremona-circuit---turni-cronometrati---contest"
     },
     {
+      "date": "2026-08-01",
+      "source": "Racing Factory",
+      "track": "Cremona",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
+    },
+    {
       "date": "2026-08-02",
       "source": "MotoRacePeople",
       "track": "Cremona",
@@ -55,6 +64,15 @@
       "availability": null,
       "price": "210€",
       "url": "https://www.motoracepeople.com/2-agosto---cremona-circuit---turni-cronometrati"
+    },
+    {
+      "date": "2026-08-13",
+      "source": "Racing Factory",
+      "track": "Cremona",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-08-17",
@@ -133,7 +151,7 @@
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "disponibile",
+      "availability": "posti limitati",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.645/motorcycle-trackdays#29"
     },
@@ -142,7 +160,7 @@
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "disponibile",
+      "availability": "posti limitati",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.645/motorcycle-trackdays#30"
     },
