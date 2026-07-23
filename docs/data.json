@@ -66,6 +66,15 @@
       "url": "https://www.motoracepeople.com/2-agosto---cremona-circuit---turni-cronometrati"
     },
     {
+      "date": "2026-08-02",
+      "source": "Racing Factory",
+      "track": "Cremona",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
+    },
+    {
       "date": "2026-08-13",
       "source": "Racing Factory",
       "track": "Cremona",
@@ -109,6 +118,15 @@
       "availability": "disponibile",
       "price": "189 €",
       "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-22-agosto-2026/"
+    },
+    {
+      "date": "2026-08-22",
+      "source": "Racing Factory",
+      "track": "Cremona",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-08-23",
@@ -188,7 +206,7 @@
       "track": "Mugello",
       "title": "Track day",
       "availability": "disponibile",
-      "price": "299 €",
+      "price": "309 €",
       "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-del-mugello-31-agosto-2026/"
     },
     {
@@ -226,15 +244,6 @@
       "availability": null,
       "price": "180€",
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
-    },
-    {
-      "date": "2026-09-15",
-      "source": "Race Action",
-      "track": "Misano",
-      "title": "15 Settembre  MISANO i Primi  a girare dopo la Moto GP     209 €",
-      "availability": null,
-      "price": "209 €",
-      "url": "https://www.raceaction.it"
     },
     {
       "date": "2026-09-16",
