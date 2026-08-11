@@ -161,7 +161,7 @@
       "track": "Mugello",
       "title": "Prova libera",
       "availability": "da verificare sul sito",
-      "price": "309,00 €",
+      "price": "319,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/385"
     },
     {
@@ -309,6 +309,15 @@
       "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-magione-28-settembre-2026/"
     },
     {
+      "date": "2026-09-30",
+      "source": "MotoRacePeople",
+      "track": "Cremona",
+      "title": "30 SETTEMBRE - CREMONA - OPL",
+      "availability": null,
+      "price": "190€",
+      "url": "https://www.motoracepeople.com/30-settembre---cremona-circuit---open-pit-lane"
+    },
+    {
       "date": "2026-10-05",
       "source": "Prima in Pista",
       "track": "Tazio Nuvolari",
@@ -406,6 +415,15 @@
       "availability": "disponibile",
       "price": "209 €",
       "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-misano-19-ottobre-2026/"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "MotoRacePeople",
+      "track": "Cremona",
+      "title": "23 OTTOBRE - CREMONA - OPL",
+      "availability": null,
+      "price": "190€",
+      "url": "https://www.motoracepeople.com/23-ottobre---cremona-circuit---open-pit-lane"
     },
     {
       "date": "2026-10-26",
