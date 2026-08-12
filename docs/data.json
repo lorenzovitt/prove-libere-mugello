@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11",
+  "generated_at": "2026-08-12",
   "sources_failed": [],
   "events": [
     {
@@ -39,15 +39,6 @@
       "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-22-agosto-2026/"
     },
     {
-      "date": "2026-08-22",
-      "source": "Racing Factory",
-      "track": "Cremona",
-      "title": "Prove libere / track day",
-      "availability": null,
-      "price": null,
-      "url": "https://www.racingfactory.it/"
-    },
-    {
       "date": "2026-08-23",
       "source": "Promo Racing",
       "track": "Mugello",
@@ -68,7 +59,7 @@
     {
       "date": "2026-08-23",
       "source": "Racing Factory",
-      "track": "Cremona",
+      "track": "Misano",
       "title": "Prove libere / track day",
       "availability": null,
       "price": null,
@@ -181,6 +172,15 @@
       "availability": null,
       "price": "180€",
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "Racing Factory",
+      "track": "Misano",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-09-16",
