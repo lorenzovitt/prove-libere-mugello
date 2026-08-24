@@ -1,34 +1,7 @@
 {
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-08-24",
   "sources_failed": [],
   "events": [
-    {
-      "date": "2026-08-23",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.643/motorcycle-trackdays#23"
-    },
-    {
-      "date": "2026-08-23",
-      "source": "Eleven Riding Life",
-      "track": "Cremona",
-      "title": "Track day",
-      "availability": "disponibile",
-      "price": "189 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-di-cremona-23-agosto-2026/"
-    },
-    {
-      "date": "2026-08-23",
-      "source": "Racing Factory",
-      "track": "Misano",
-      "title": "Prove libere / track day",
-      "availability": null,
-      "price": null,
-      "url": "https://www.racingfactory.it/"
-    },
     {
       "date": "2026-08-24",
       "source": "Prima in Pista",
