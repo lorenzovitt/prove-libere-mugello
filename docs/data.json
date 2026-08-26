@@ -84,6 +84,15 @@
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
     },
     {
+      "date": "2026-09-14",
+      "source": "Racing Factory",
+      "track": "Misano",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
+    },
+    {
       "date": "2026-09-16",
       "source": "Eleven Riding Life",
       "track": "Cremona",
@@ -133,7 +142,7 @@
       "source": "Promo Racing",
       "track": "Mugello",
       "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
+      "availability": "esaurito",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#20"
     },
