@@ -1,7 +1,8 @@
 {
   "generated_at": "2026-08-29",
   "sources_failed": [
-    "Eleven Riding Life"
+    "Eleven Riding Life",
+    "MotoRacePeople"
   ],
   "events": [
     {
@@ -51,15 +52,6 @@
     },
     {
       "date": "2026-09-14",
-      "source": "MotoRacePeople",
-      "track": "Tazio Nuvolari",
-      "title": "14 SETTEMBRE NUVOLARI 5260 - OPL QUALITY",
-      "availability": null,
-      "price": "180€",
-      "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
-    },
-    {
-      "date": "2026-09-14",
       "source": "Racing Factory",
       "track": "Misano",
       "title": "Prove libere / track day",
@@ -75,24 +67,6 @@
       "availability": "esaurito",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#18"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "MotoRacePeople",
-      "track": "Tazio Nuvolari",
-      "title": "18 SETTEMBRE T. NUVOLARI 2805 - TURNI CRONO",
-      "availability": null,
-      "price": "135€",
-      "url": "https://www.motoracepeople.com/18-settembre---tazio-nuovolari-2805---turni-cronometrati"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "MotoRacePeople",
-      "track": "Mugello",
-      "title": "18_19_20 SETTEMBRE  - MUGELLO",
-      "availability": null,
-      "price": "209€",
-      "url": "https://www.motoracepeople.com/1/2/17/18/18/19/20-settembre---mugello---turni-cronometrati---pareggiamenti"
     },
     {
       "date": "2026-09-19",
@@ -131,15 +105,6 @@
       "url": "https://www.promoracing.it/en/calendar/bike.648/motorcycle-trackday#27"
     },
     {
-      "date": "2026-09-27",
-      "source": "MotoRacePeople",
-      "track": "Mugello",
-      "title": "27 SETTEMBRE  - MUGELLO - TURNI & P.TI",
-      "availability": null,
-      "price": "345€",
-      "url": "https://www.motoracepeople.com/1/2/17/18/18/19/27-settembre---mugello---turni-cronometrati---pareggiamenti"
-    },
-    {
       "date": "2026-09-28",
       "source": "Promo Racing",
       "track": "Cremona",
@@ -156,15 +121,6 @@
       "availability": "da verificare sul sito",
       "price": "309,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/387"
-    },
-    {
-      "date": "2026-09-30",
-      "source": "MotoRacePeople",
-      "track": "Cremona",
-      "title": "30 SETTEMBRE - CREMONA - OPL",
-      "availability": null,
-      "price": "190€",
-      "url": "https://www.motoracepeople.com/30-settembre---cremona-circuit---open-pit-lane"
     },
     {
       "date": "2026-10-05",
@@ -194,15 +150,6 @@
       "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#09"
     },
     {
-      "date": "2026-10-09",
-      "source": "MotoRacePeople",
-      "track": "Mugello",
-      "title": "9_10_11 OTTOBRE  - MUGELLO - TURNI & P.TI",
-      "availability": null,
-      "price": "209€",
-      "url": "https://www.motoracepeople.com/1/2/17/18/18/19/9/10/11-ottobre---mugello---turni-cronometrati---pareggiamenti"
-    },
-    {
       "date": "2026-10-10",
       "source": "Promo Racing",
       "track": "Mugello",
@@ -230,15 +177,6 @@
       "url": "https://www.rossocorsaonline.com/prove/detail/388"
     },
     {
-      "date": "2026-10-23",
-      "source": "MotoRacePeople",
-      "track": "Cremona",
-      "title": "23 OTTOBRE - CREMONA - OPL",
-      "availability": null,
-      "price": "190€",
-      "url": "https://www.motoracepeople.com/23-ottobre---cremona-circuit---open-pit-lane"
-    },
-    {
       "date": "2026-10-26",
       "source": "Promo Racing",
       "track": "Misano",
@@ -246,15 +184,6 @@
       "availability": "disponibile",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.651/motorcycle-trackday-special-price#26"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "MotoRacePeople",
-      "track": "Misano",
-      "title": "26 OTTOBRE  - MISANO - TURNI CRONO",
-      "availability": null,
-      "price": "229€",
-      "url": "https://www.motoracepeople.com/4/5/26-ottobre---misano---turni-cronometrati"
     },
     {
       "date": "2026-12-03",
