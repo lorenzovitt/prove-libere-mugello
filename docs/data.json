@@ -39,15 +39,6 @@
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
     },
     {
-      "date": "2026-09-14",
-      "source": "Racing Factory",
-      "track": "Misano",
-      "title": "Prove libere / track day",
-      "availability": null,
-      "price": null,
-      "url": "https://www.racingfactory.it/"
-    },
-    {
       "date": "2026-09-16",
       "source": "Eleven Riding Life",
       "track": "Cremona",
@@ -307,33 +298,6 @@
       "availability": null,
       "price": "219 €",
       "url": "https://www.raceaction.it"
-    },
-    {
-      "date": "2027-08-23",
-      "source": "Racing Factory",
-      "track": "Misano",
-      "title": "Prove libere / track day",
-      "availability": null,
-      "price": null,
-      "url": "https://www.racingfactory.it/"
-    },
-    {
-      "date": "2027-08-24",
-      "source": "Prima in Pista",
-      "track": "Cremona",
-      "title": "Prove libere",
-      "availability": null,
-      "price": "239,00 €",
-      "url": "https://www.primainpista.it/shop/p/cremona24agostopromo"
-    },
-    {
-      "date": "2027-08-24",
-      "source": "Prima in Pista",
-      "track": "Cremona",
-      "title": "Prove libere",
-      "availability": null,
-      "price": "239,00 €",
-      "url": "https://www.primainpista.it/shop/p/cremona24agosto-piloti"
     }
   ]
 }
