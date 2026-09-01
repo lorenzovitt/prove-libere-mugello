@@ -1,16 +1,7 @@
 {
-  "generated_at": "2026-08-31",
+  "generated_at": "2026-09-01",
   "sources_failed": [],
   "events": [
-    {
-      "date": "2026-08-31",
-      "source": "Eleven Riding Life",
-      "track": "Mugello",
-      "title": "Track day",
-      "availability": "esaurito",
-      "price": "309 €",
-      "url": "https://www.elevenridinglife.com/prodotto/track-day-circuito-del-mugello-31-agosto-2026/"
-    },
     {
       "date": "2026-09-07",
       "source": "Promo Racing",
@@ -46,6 +37,15 @@
       "availability": null,
       "price": "180€",
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "Racing Factory",
+      "track": "Misano",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-09-16",
@@ -298,6 +298,42 @@
       "availability": "da verificare sul sito",
       "price": "100.00€",
       "url": "https://www.rossocorsaonline.com/prove/detail/362"
+    },
+    {
+      "date": "2027-08-17",
+      "source": "Race Action",
+      "track": "Misano",
+      "title": "17 agosto   LUNEDI MISANO WORLD  CIRCUIT   219 €",
+      "availability": null,
+      "price": "219 €",
+      "url": "https://www.raceaction.it"
+    },
+    {
+      "date": "2027-08-23",
+      "source": "Racing Factory",
+      "track": "Misano",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
+    },
+    {
+      "date": "2027-08-24",
+      "source": "Prima in Pista",
+      "track": "Cremona",
+      "title": "Prove libere",
+      "availability": null,
+      "price": "239,00 €",
+      "url": "https://www.primainpista.it/shop/p/cremona24agostopromo"
+    },
+    {
+      "date": "2027-08-24",
+      "source": "Prima in Pista",
+      "track": "Cremona",
+      "title": "Prove libere",
+      "availability": null,
+      "price": "239,00 €",
+      "url": "https://www.primainpista.it/shop/p/cremona24agosto-piloti"
     }
   ]
 }
