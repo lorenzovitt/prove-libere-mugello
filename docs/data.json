@@ -1,6 +1,8 @@
 {
   "generated_at": "2026-09-08",
-  "sources_failed": [],
+  "sources_failed": [
+    "Eleven Riding Life"
+  ],
   "events": [
     {
       "date": "2026-09-14",
@@ -8,7 +10,7 @@
       "track": "Mugello",
       "title": "Prova libera",
       "availability": "da verificare sul sito",
-      "price": "329,00 €",
+      "price": "339,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/385"
     },
     {
@@ -19,6 +21,15 @@
       "availability": null,
       "price": "180€",
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "Racing Factory",
+      "track": "Misano",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-09-18",
