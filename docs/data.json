@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10",
+  "generated_at": "2026-09-11",
   "sources_failed": [],
   "events": [
     {
@@ -19,15 +19,6 @@
       "availability": null,
       "price": "180€",
       "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
-    },
-    {
-      "date": "2026-09-14",
-      "source": "Racing Factory",
-      "track": "Misano",
-      "title": "Prove libere / track day",
-      "availability": null,
-      "price": null,
-      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-09-18",
