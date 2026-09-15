@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-09-14",
-  "sources_failed": [],
+  "generated_at": "2026-09-15",
+  "sources_failed": [
+    "Eleven Riding Life"
+  ],
   "events": [
-    {
-      "date": "2026-09-14",
-      "source": "MotoRacePeople",
-      "track": "Tazio Nuvolari",
-      "title": "14 SETTEMBRE NUVOLARI 5260 - OPL QUALITY",
-      "availability": null,
-      "price": "180€",
-      "url": "https://www.motoracepeople.com/14-settembre---tazio-nuovolari-5260---opl-quality---turni-capacita"
-    },
     {
       "date": "2026-09-18",
       "source": "Promo Racing",
