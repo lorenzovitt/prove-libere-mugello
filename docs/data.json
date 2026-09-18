@@ -1,8 +1,6 @@
 {
   "generated_at": "2026-09-18",
-  "sources_failed": [
-    "Eleven Riding Life"
-  ],
+  "sources_failed": [],
   "events": [
     {
       "date": "2026-09-18",
@@ -12,15 +10,6 @@
       "availability": "esaurito",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#18"
-    },
-    {
-      "date": "2026-09-18",
-      "source": "MotoRacePeople",
-      "track": "Tazio Nuvolari",
-      "title": "18 SETTEMBRE T. NUVOLARI 2805 - TURNI CRONO",
-      "availability": null,
-      "price": "150€",
-      "url": "https://www.motoracepeople.com/18-settembre---tazio-nuovolari-2805---turni-cronometrati"
     },
     {
       "date": "2026-09-18",
@@ -50,15 +39,6 @@
       "url": "https://www.promoracing.it/en/calendar/bike.647/motorcycle-trackdays#20"
     },
     {
-      "date": "2026-09-24",
-      "source": "Rosso Corsa",
-      "track": "Misano",
-      "title": "Prova libera",
-      "availability": "da verificare sul sito",
-      "price": "279,00 €",
-      "url": "https://www.rossocorsaonline.com/prove/detail/386"
-    },
-    {
       "date": "2026-09-27",
       "source": "Promo Racing",
       "track": "Mugello",
@@ -84,15 +64,6 @@
       "availability": "esaurito",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.687/pirelli-world-sbk-day#28"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Rosso Corsa",
-      "track": "Mugello",
-      "title": "Prova libera",
-      "availability": "da verificare sul sito",
-      "price": "319,00 €",
-      "url": "https://www.rossocorsaonline.com/prove/detail/387"
     },
     {
       "date": "2026-10-05",
@@ -149,15 +120,6 @@
       "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#11"
     },
     {
-      "date": "2026-10-19",
-      "source": "Rosso Corsa",
-      "track": "Misano",
-      "title": "Prova libera",
-      "availability": "da verificare sul sito",
-      "price": "249,00 €",
-      "url": "https://www.rossocorsaonline.com/prove/detail/388"
-    },
-    {
       "date": "2026-10-23",
       "source": "MotoRacePeople",
       "track": "Cremona",
@@ -183,15 +145,6 @@
       "availability": null,
       "price": "229€",
       "url": "https://www.motoracepeople.com/4/5/26-ottobre---misano---turni-cronometrati"
-    },
-    {
-      "date": "2026-12-03",
-      "source": "Rosso Corsa",
-      "track": "Buoni Regalo",
-      "title": "Prova libera",
-      "availability": "da verificare sul sito",
-      "price": "100.00€",
-      "url": "https://www.rossocorsaonline.com/prove/detail/362"
     }
   ]
 }
