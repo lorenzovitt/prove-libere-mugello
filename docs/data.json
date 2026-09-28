@@ -1,25 +1,7 @@
 {
-  "generated_at": "2026-09-27",
+  "generated_at": "2026-09-28",
   "sources_failed": [],
   "events": [
-    {
-      "date": "2026-09-27",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackday Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.648/motorcycle-trackday#27"
-    },
-    {
-      "date": "2026-09-27",
-      "source": "MotoRacePeople",
-      "track": "Mugello",
-      "title": "27 SETTEMBRE  - MUGELLO",
-      "availability": null,
-      "price": "345€",
-      "url": "https://www.motoracepeople.com/1/2/17/18/18/19/27-settembre---mugello---turni-cronometrati---pareggiamenti"
-    },
     {
       "date": "2026-09-28",
       "source": "Promo Racing",
@@ -28,15 +10,6 @@
       "availability": "esaurito",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.687/pirelli-world-sbk-day#28"
-    },
-    {
-      "date": "2026-09-28",
-      "source": "Rosso Corsa",
-      "track": "Mugello",
-      "title": "Prova libera",
-      "availability": "da verificare sul sito",
-      "price": "329,00 €",
-      "url": "https://www.rossocorsaonline.com/prove/detail/387"
     },
     {
       "date": "2026-10-05",
