@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-09-28",
-  "sources_failed": [],
+  "generated_at": "2026-09-29",
+  "sources_failed": [
+    "Eleven Riding Life"
+  ],
   "events": [
-    {
-      "date": "2026-09-28",
-      "source": "Promo Racing",
-      "track": "Cremona",
-      "title": "Pirelli WORLD SBK Day Cremona Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.687/pirelli-world-sbk-day#28"
-    },
     {
       "date": "2026-10-05",
       "source": "Prima in Pista",
@@ -31,39 +24,12 @@
     },
     {
       "date": "2026-10-09",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#09"
-    },
-    {
-      "date": "2026-10-09",
       "source": "MotoRacePeople",
       "track": "Mugello",
       "title": "9_10_11 OTTOBRE  - MUGELLO - TURNI & P.TI",
       "availability": null,
       "price": "209€",
       "url": "https://www.motoracepeople.com/1/2/17/18/18/19/9/10/11-ottobre---mugello---turni-cronometrati---pareggiamenti"
-    },
-    {
-      "date": "2026-10-10",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#10"
-    },
-    {
-      "date": "2026-10-11",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "posti limitati",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#11"
     },
     {
       "date": "2026-10-19",
@@ -82,15 +48,6 @@
       "availability": null,
       "price": "190€",
       "url": "https://www.motoracepeople.com/23-ottobre---cremona-circuit---open-pit-lane"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Promo Racing",
-      "track": "Misano",
-      "title": "MOTORCYCLE TRACKDAY - special price",
-      "availability": "disponibile",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.651/motorcycle-trackday-special-price#26"
     },
     {
       "date": "2026-10-26",
