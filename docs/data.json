@@ -64,7 +64,7 @@
       "track": "Misano",
       "title": "Prova libera",
       "availability": "da verificare sul sito",
-      "price": "249,00 €",
+      "price": "259,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/388"
     },
     {
@@ -75,6 +75,15 @@
       "availability": null,
       "price": "190€",
       "url": "https://www.motoracepeople.com/23-ottobre---cremona-circuit---open-pit-lane"
+    },
+    {
+      "date": "2026-10-24",
+      "source": "Racing Factory",
+      "track": "Misano",
+      "title": "Prove libere / track day",
+      "availability": null,
+      "price": null,
+      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-10-26",
