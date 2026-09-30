@@ -1,8 +1,6 @@
 {
   "generated_at": "2026-09-30",
-  "sources_failed": [
-    "Eleven Riding Life"
-  ],
+  "sources_failed": [],
   "events": [
     {
       "date": "2026-10-05",
@@ -75,15 +73,6 @@
       "availability": null,
       "price": "190€",
       "url": "https://www.motoracepeople.com/23-ottobre---cremona-circuit---open-pit-lane"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Racing Factory",
-      "track": "Misano",
-      "title": "Prove libere / track day",
-      "availability": null,
-      "price": null,
-      "url": "https://www.racingfactory.it/"
     },
     {
       "date": "2026-10-26",
