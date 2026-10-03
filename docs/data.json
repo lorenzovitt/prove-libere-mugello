@@ -1,6 +1,8 @@
 {
   "generated_at": "2026-10-03",
-  "sources_failed": [],
+  "sources_failed": [
+    "Eleven Riding Life"
+  ],
   "events": [
     {
       "date": "2026-10-05",
@@ -62,7 +64,7 @@
       "track": "Misano",
       "title": "Prova libera",
       "availability": "da verificare sul sito",
-      "price": "262,00 €",
+      "price": "269,00 €",
       "url": "https://www.rossocorsaonline.com/prove/detail/388"
     },
     {
