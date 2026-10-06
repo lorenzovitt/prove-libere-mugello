@@ -1,25 +1,9 @@
 {
-  "generated_at": "2026-10-05",
-  "sources_failed": [],
+  "generated_at": "2026-10-06",
+  "sources_failed": [
+    "Eleven Riding Life"
+  ],
   "events": [
-    {
-      "date": "2026-10-05",
-      "source": "Prima in Pista",
-      "track": "Tazio Nuvolari",
-      "title": "Prove libere",
-      "availability": null,
-      "price": "189,00 €",
-      "url": "https://www.primainpista.it/shop/p/tazio05ottobre"
-    },
-    {
-      "date": "2026-10-05",
-      "source": "Race Action",
-      "track": "Misano",
-      "title": "05 Ottobre   LUNEDI MISANO WORLD  CIRCUIT  199 €",
-      "availability": null,
-      "price": "199 €",
-      "url": "https://www.raceaction.it"
-    },
     {
       "date": "2026-10-09",
       "source": "Promo Racing",
