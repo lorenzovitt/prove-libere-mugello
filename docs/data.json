@@ -68,6 +68,15 @@
       "url": "https://www.racingfactory.it/"
     },
     {
+      "date": "2026-10-25",
+      "source": "MotoRacePeople",
+      "track": "Cremona",
+      "title": "25 OTTOBRE - CREMONA CIRCUIT - OPEN PIT LANE",
+      "availability": null,
+      "price": "160€",
+      "url": "https://www.motoracepeople.com/25-ottobre---cremona-circuit---open-pit-lane"
+    },
+    {
       "date": "2026-10-26",
       "source": "Promo Racing",
       "track": "Misano",
@@ -93,6 +102,15 @@
       "availability": "da verificare sul sito",
       "price": "100.00€",
       "url": "https://www.rossocorsaonline.com/prove/detail/362"
+    },
+    {
+      "date": "2027-03-05",
+      "source": "Rosso Corsa",
+      "track": "Jerez",
+      "title": "Prova libera",
+      "availability": "da verificare sul sito",
+      "price": "1,00 €",
+      "url": "https://www.rossocorsaonline.com/prove/detail/392"
     }
   ]
 }
