@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-10-11",
-  "sources_failed": [],
+  "generated_at": "2026-10-12",
+  "sources_failed": [
+    "Eleven Riding Life"
+  ],
   "events": [
-    {
-      "date": "2026-10-11",
-      "source": "Promo Racing",
-      "track": "Mugello",
-      "title": "Motorcycle trackdays Mugello Circuit",
-      "availability": "esaurito",
-      "price": null,
-      "url": "https://www.promoracing.it/en/calendar/bike.649/motorcycle-trackdays#11"
-    },
     {
       "date": "2026-10-19",
       "source": "Rosso Corsa",
