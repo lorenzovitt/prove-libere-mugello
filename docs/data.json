@@ -1,6 +1,9 @@
 {
   "generated_at": "2026-10-14",
-  "sources_failed": [],
+  "sources_failed": [
+    "Eleven Riding Life",
+    "Gully Racing"
+  ],
   "events": [
     {
       "date": "2026-10-19",
@@ -43,7 +46,7 @@
       "source": "Promo Racing",
       "track": "Misano",
       "title": "MOTORCYCLE TRACKDAY - special price",
-      "availability": "posti limitati",
+      "availability": "esaurito",
       "price": null,
       "url": "https://www.promoracing.it/en/calendar/bike.651/motorcycle-trackday-special-price#26"
     },
